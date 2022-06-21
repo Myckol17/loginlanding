@@ -2,18 +2,21 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    
 }
 
 .caja{
     margin: 5% auto;
     width: 425px;
     padding: 80px ;
-    background: rgb(83, 134, 122);
+    background: rgb(234, 238, 237);
     text-align: center;
+    box-shadow: 10px 10px rgb(128 105 42 / 30%)
 }
 
 .imagen{
     width: 200px;
+   
 }
 
 .iniciar{
@@ -36,7 +39,7 @@
     padding: 8px 3px;
     border: 3px solid#d6d6d6 ;
     border-radius: 20px;
-    box-shadow: 1px 10px rgba(128, 105, 42, 0.3);
+    box-shadow: 1px 10px rgba(7, 7, 7, 0.3)
 }
 
 .entrar{
@@ -49,6 +52,7 @@
     border-radius: 37px;
     letter-spacing: 5px;
     cursor: pointer;
+    box-shadow: 1px 10px rgba(7, 7, 7, 0.3)
 }
 
 .nocuenta{
@@ -56,6 +60,7 @@
     margin: 10px 0px;
     background-color: transparent;
     border: none;
+   
 }
 
 .crear{
@@ -68,4 +73,5 @@
     border-radius: 37px;
     letter-spacing: 5px;
     cursor: pointer;
+    box-shadow: 1px 10px rgba(7, 7, 7, 0.3)
 }
